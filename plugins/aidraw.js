@@ -9,7 +9,7 @@ conn.sendButton(m.chat, `*${text}*`.trim(), author, haha.data, [[' All Menu ', `
 }
 
 handler.command = handler.help = ['aidraw']
-handler.tags = ['internet']
+handler.tags = ['internet', 'tools']
 handler.limit = true
 handler.premium = true
 export default handler

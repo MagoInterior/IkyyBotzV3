@@ -65,6 +65,7 @@
 	"jimp": "^0.16.2",
         "jsdom": "^19.0.0",
         "lodash": "^4.17.21",
+        "openai": "^3.1.0",
         "lowdb": "^3.0.0",
         "moment-timezone": "^0.5.33",
         "mongoose": "github:Automattic/mongoose",

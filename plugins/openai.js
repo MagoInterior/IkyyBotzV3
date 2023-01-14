@@ -6,7 +6,7 @@ let handler = async (m, {text, args}) => {
   m.reply(res.result)
 }
 handler.command = ['ai']
-handler.tags = ['internet']
+handler.tags = ['internet', 'tools']
 handler.help = ['ai <terserah mau cari apa>']
 handler.limit = true
 handler.premium = true
