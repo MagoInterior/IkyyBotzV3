@@ -10,10 +10,10 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install node@16.15.0 && npm install
+RUN npm install && npm audit fix
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+CMD ["node", "."]
