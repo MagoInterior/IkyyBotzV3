@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install -g npm@9.3.0 && npm install
+RUN npm install
 
 COPY . .
 
