@@ -55,8 +55,8 @@ global.owner = [
   ['6282281657946', 'Ikyy Official', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['6282281657946'] // Want some help?
-global.prems = ['62856091885235'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods = [] // Want some help?
+global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
